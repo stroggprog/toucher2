@@ -1,7 +1,7 @@
 base   toucher2
 author Andriy Nych/Phil Ide
 email  nych.andriy@gmail.com / phil.ppi.uk@gmail.com
-date   2024-07-27
+date   2024-07-28
 name   Toucher2 plugin
 desc   A plugin for touching configuration files without changing DokuWiki settings
 url    http://www.dokuwiki.org/plugin:toucher2

@@ -5,7 +5,7 @@ toucher Plugin for DokuWiki
 touches config files
 
 Original code was taken from `toucher` by Andriy Nych
-An long outstanding bug was corrected, and then the code was hacked and beaten until it did what I wanted it to do, which was generally not what Andriy had set out to do.
+A long outstanding bug was corrected, and then the code was hacked and beaten until it did what I wanted it to do, which was generally not what Andriy had set out to do.
 
 All documentation for this plugin can be found at
 http://www.dokuwiki.org/plugin:toucher2

@@ -32,8 +32,8 @@ class admin_plugin_toucher2 extends DokuWiki_Admin_Plugin {
     public function handle() {
         global $INFO;
 
-        if ($this->getConf('admin_only')) {
-            if (!$INFO['isadmin']) {
+        if($this->getConf('admin_only')) {
+            if(!$INFO['isadmin']) {
                 msg('Plugin toucher failed: you must be admin to touch configuration',-1);
                 return false;
             }

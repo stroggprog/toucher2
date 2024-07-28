@@ -42,7 +42,23 @@ class action_plugin_toucher2 extends DokuWiki_Action_Plugin
      */
     public function handle_wikipage_save(Doku_Event $event, $param)
     {
-        touch(DOKU_CONF."local.php");
+        global $INFO;
+        $act = false;
+
+        // only do this if enabled for page saves
+        if( $this->getConf('on_demand') ){
+            // manager and plugin isn't enabled for admins only
+            if( $INFO['ismanager'] && !$this->getConf('admin_only') ){
+                $act = true;
+            }
+            else if( $INFO['isadmin'] ){
+                $act = true;
+            }
+
+            if( $act ){
+                touch(DOKU_CONF."local.php");
+            }
+        }
     }
 
 }

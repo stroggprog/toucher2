@@ -6,3 +6,4 @@
  */
 
 $meta['admin_only'] = array('onoff');
+$meta['on_demand']  = array('onoff');

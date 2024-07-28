@@ -6,5 +6,4 @@
  */
 
 $lang['admin_only'] = 'Allow toucher plugin only for admins (superusers)';
-
-//Setup VIM: ex: et ts=4 :
+$lang['on_demand']  = 'Enable for page saves (if unset, touch is only available from admin menu)';

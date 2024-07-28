@@ -6,3 +6,4 @@
  */
 
 $conf['admin_only'] = 1;
+$conf['on_demand']  = 1;
